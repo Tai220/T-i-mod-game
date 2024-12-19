@@ -1,11 +1,6 @@
 Config = {
-    namescript = "taimodgame hub",--Tên Script
+    namescript = "taideptrai hub",--Tên Script
     logoscript = "14069216114",--ID Logo Script
     tacgia = "tài mod game"-- Tên Tác Giả
 }
-getgenv().Team = "Marines"
-getgenv().AutoLoad = false
-getgenv().SlowLoadUi  = false
-getgenv().ForceUseSilentAimDashModifier = false
-getgenv().ForceUseWalkSpeedModifier = false
- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tai220/T-i-mod-game/refs/heads/main/T%C3%A0i%20mod%20game"))()
